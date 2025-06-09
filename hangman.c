@@ -14,8 +14,8 @@ int main() {
             break;
         }
         strcat(userGuesses, userInput);
-        printf("You input: %s\n", userGuesses);
+        printf("\nYou input: %s\n", userGuesses);
     }
-    printf("Program complete.\n");
+    printf("\nProgram complete.\n");
     return 0;
 }
